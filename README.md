@@ -37,17 +37,17 @@ venv\Scripts\activate
 # On macOS/Linux:
 source venv/bin/activate
 
+## to upgrade pip
+python.exe -m pip install --upgrade pip
+
 ##Install dependencies
 pip install -r requirements.txt
 
-##Set up environment variables
-cp .env.example .env
-
 ## Test the RAG pipeline
-python src/rag_pipeline.py
+python rag_pipeline.py
 
 ##Launch the web interface
-streamlit run src/app.py
+streamlit run app.py
 
 Open your browser and go to http://localhost:8501
 
