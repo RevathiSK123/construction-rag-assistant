@@ -15,6 +15,9 @@ An AI-powered Retrieval-Augmented Generation (RAG) system for construction indus
 ✅ **LLM integration** via OpenRouter  
 ✅ **Transparent results** with source citations  
 
+## Deployment Link
+https://construction-rag-assistant-hksdxwpyeapeq9vdnlx4kz.streamlit.app/
+
 ## 🚀 Quick Start
 
 ### Prerequisites
